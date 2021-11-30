@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+// import Baitap1 from "./baitap1";
+// import Baitap2 from "./baitap2";
+import RenderingElements from './rendering-elements';
+import HandlingEvents from './handling-events';
+import State from './state';
+import ChangeColorCar from './changeColorCar';
+import ListKeys from './list-keys';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Baitap1/> */}
+      {/* <Baitap2/> */}
+      <RenderingElements/>
+      <hr/>
+      <HandlingEvents/>
+      <hr/>
+      <State/>
+      <hr/>
+      <ChangeColorCar/>
+      <hr/>
+      <ListKeys/>
     </div>
   );
 }

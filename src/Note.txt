@@ -1,0 +1,15 @@
+html
+js
+=> jsx (bao gồm js + html)
+========= Buổi 1 ========
+* Component:
+    - Stateful Component: class
+    - Stateless Component: function
+
+========= Buổi 2 ========
+*Install BootStrap4
+*Rendering Elements
+*Handling Events
+*State: Nếu như state thay đổi => component sẽ render lại
+*List keys
+    
