@@ -30,7 +30,7 @@ export default class ListKeys extends Component {
           {this.renderListUser()}
           {/* {this.state.listUser.map((user, index) => {
             return (
-                //key nhận vào giá trị unique, mỗi key khác nhau
+                //key nhận vào giá trị unique, mỗi key khác nhau,đặt ngay thẻ cha lớn nhất của phần tử
               <li key={index}>
                 username: {user.username} - age: {user.age}
               </li>

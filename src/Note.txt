@@ -8,8 +8,12 @@ js
 
 ========= Buổi 2 ========
 *Install BootStrap4
-*Rendering Elements
-*Handling Events
+*Rendering Elements: {}
+*Handling Events: onClick = {}
 *State: Nếu như state thay đổi => component sẽ render lại
-*List keys
-    
+*List keys: duyệt mảng, phải có mảng và key ở thẻ cha lớn nhất của phần tử
+
+========= Buổi 3 ========
+*Communication
+- Props: truyền dữ liệu từ component cha -> con
+- Lifting State Up: truyền dữ liệu từ component con -> cha    

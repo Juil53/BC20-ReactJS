@@ -9,9 +9,9 @@ export default class ChangeColorCar extends Component {
   }
 
   changeColor = (img) => {
-      this.setState({
-          img,
-      })
+    this.setState({
+      img: img,
+    });
   };
 
   render() {
